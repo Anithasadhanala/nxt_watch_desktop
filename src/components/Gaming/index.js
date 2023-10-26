@@ -38,7 +38,7 @@ class Gaming extends Component {
     const url = 'https://apis.ccbp.in/videos/gaming'
     const options = {
       headers: {
-        Authorization: `Bearer ${url}`,
+        Authorization: `Bearer ${jwtToken}`,
       },
       method: 'GET',
     }

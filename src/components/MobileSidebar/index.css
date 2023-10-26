@@ -1,0 +1,12 @@
+.MobileSideBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  height: 4vh;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.sideBarTopImg2 {
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.HomeBody {
+  display: flex;
+}
+.hi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 60vh;
+}
+.HomeBodySubContainer {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  width: 85vw;
+
+  overflow-y: auto;
+}
+.searchItemContainer {
+  margin-left: 0px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+  min-height: 55vh;
+}
+.HomeSearchContainer {
+  margin-left: 18px;
+  display: flex;
+}
+
+.searchInput {
+  height: 40px;
+  width: 500px;
+  border: #94a3b8 1px solid;
+  padding: 15px;
+  border-radius: 5px;
+}
+.searchBtn {
+  height: 40px;
+  width: 80px;
+  border: #94a3b8 1px solid;
+  border-radius: 2px;
+  border-left: none;
+  cursor: pointer;
+}
+.searchInputImg {
+  height: 18px;
+  width: 18px;
+}
+.HomeBodySubContainer2 {
+  width: 78vw;
+  padding-top: 30px;
+  min-height: 500px;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.SthWrongContainer {
+  min-height: 60vh;
+  min-width: 82vw;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sthWrongImg {
+  height: 200px;
+  width: 280px;
+  margin-bottom: 40px;
+}
+.sthWrongHead {
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 600;
+  color: #0f0f0f;
+  margin-bottom: 10px;
+}
+
+.sthWrongPara {
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 10px;
+}
+.sthWrongBtn {
+  height: 34px;
+  width: 90px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media (max-width: 1100px) {
+  .searchItemContainer {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .HomeBodySubContainer {
+    max-width: 72vw;
+
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .searchInput {
+    height: 40px;
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .searchInput {
+    height: 20px;
+    width: 60%;
+  }
+  .searchBtn {
+    height: 32px;
+    width: 40px;
+    border: #94a3b8 1px solid;
+    border-radius: 2px;
+    border-left: none;
+  }
+}

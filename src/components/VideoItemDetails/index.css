@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.detailedVideoContainer {
+  background-color: #f9f9f9;
+  height: 93vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.ji {
+  width: 50vw;
+}
+.video {
+  min-width: 50vw;
+  min-height: 50vh;
+}
+.detailedVideoHead {
+  font-size: 18px;
+  color: #0f0f0f;
+  font-weight: 600;
+  font-family: Roboto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.detailedViewDataContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.detailedViewsDateSubContainer {
+  display: flex;
+}
+
+.detailedLikesDislikesCont {
+  display: flex;
+}
+.detailedViewBtn {
+  border: 0px;
+  background-color: transparent;
+  height: 35px;
+  width: 90px;
+  display: flex;
+  margin-right: 10px;
+  color: #64748b;
+  font-size: 16px;
+
+  font-weight: 500;
+  font-family: Roboto;
+  margin-top: 8px;
+  margin-left: 6px;
+}
+.blueColor {
+  color: #2563eb;
+}
+.detailedViewImg {
+  height: 25px;
+  width: 25px;
+  margin-top: 5px;
+}
+.detailedViewPara {
+  font-size: 16px;
+
+  font-weight: 500;
+  font-family: Roboto;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+.detailedPara {
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 500;
+  font-family: Roboto;
+  margin-right: 10px;
+}
+.detailedLine {
+  background-color: #475569;
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.detailedChannelContainer {
+  display: flex;
+}
+.detailedChannelImg {
+  height: 50px;
+  width: 50px;
+  margin-right: 25px;
+}
+.detailedChannelSubCont {
+  display: flex;
+  flex-direction: column;
+}
+.detailedChannelHead {
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: 600;
+  font-family: Roboto;
+  margin-top: 5px;
+  margin-bottom: 18px;
+}
+.detailedSubscribersPara {
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 400;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+
+.detailedChannelLongPara {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 600;
+  font-family: Roboto;
+}
+
+@media (max-width: 1100px) {
+  .video {
+    min-width: 40%;
+    min-height: 40%;
+    margin-right: 30px;
+  }
+  .detailedPara {
+    font-size: 14px;
+  }
+  .ji {
+    width: 65vw;
+  }
+  .detailedViewBtn {
+    height: 30px;
+    width: 70px;
+  }
+  .detailedChannelLongPara {
+    font-size: 12px;
+  }
+  .detailedViewBtn {
+    margin-right: 2px;
+  }
+  .detailedViewDataContainer {
+    flex-direction: column;
+  }
+  .detailedViewsDateSubContainer {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.notFoundContainer {
+  background-color: #f9f9f9;
+  width: 86vw;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notFoundIMg {
+  height: 400px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.notFoundHead {
+  font-size: 25px;
+  color: #0f0f0f;
+  font-weight: 600;
+  font-family: Roboto;
+  margin-bottom: 20px;
+}
+.notFoundPara {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+  font-family: Roboto;
+}

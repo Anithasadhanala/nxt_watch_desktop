@@ -1,0 +1,13 @@
+.gamingSingleContainer {
+  background-color: #f9f9f9;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.trendingImg {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  color: red;
+}

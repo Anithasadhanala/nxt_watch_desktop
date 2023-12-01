@@ -26,14 +26,12 @@ http://nxtwatch2023.ccbp.tech/
 
 ```git
 git clone https://github.com/Anithasadhanala/nxt_watch_desktop.git
-
 ```
 
 
 2.Install the dependencies:
 
 ```git
-cd client
 npm install
 ```
 

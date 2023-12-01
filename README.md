@@ -1,7 +1,7 @@
 
 ## Next Watch Application
 
-A MERN stack application that is built for watching the videos without any break with the HD quality and without any interventions.
+A MERN stack application that is built for watching the videos without any break with the HD quality and without any interventions. This web app is built specially for landScape view devices only!!!
 
 ## Open Work V1.0.0
 
@@ -13,7 +13,7 @@ Feel free to fork this project and make changes to it and create pull request. H
 This project is done using the React.js, Express.js, Node.js, MongoDB and REST api. 
 
 ## Published Live in :
-Login Default credencials, UserName : `rahul` , password : `rahil@2021`
+Login Default credencials, UserName : `rahul` , password : `rahul@2021`
 
 ```chrome
 http://nxtwatch2023.ccbp.tech/

@@ -1,7 +1,7 @@
 
 ## Next Watch Application
 
-A MERN stack application that is built for watching the videos without any break with the HD quality and without any interventions. This web app is built specially for landScape view devices only!!!
+A MERN stack application that is a built for watching the videos without any break with the HD quality and without any interventions. This web app is built specially for landScape view devices only!!!
 
 ## Open Work V1.0.0
 
